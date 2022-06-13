@@ -3,7 +3,8 @@ This repository complements Chapter 3 of the paper
 by 
 Lukas Pieronek and Andreas Kleefeld.
 
-Date: September, 6th 2022
+Date: June, 13th 2022
+Used: Matlab R2021a
 
 Creating the ten figures
 ========================
@@ -22,6 +23,18 @@ plotfig07.m
 plotfig08.m
 plotfig09.m
 plotfig10.m
+
+and creates
+fig01.eps
+fig02.eps
+fig03.eps
+fig04.eps
+fig05.eps
+fig06.eps
+fig07.eps
+fig08.eps
+fig09.eps
+fig10.eps
 
 Data for the figures
 ====================
@@ -48,7 +61,7 @@ Generation of the data
 ======================
 The data are produced through
 
-createdata.m (this needs a long time) using the call createdata()
+createdata.m (this needs about 10 hours) using the call createdata()
 
 which calls
 disk1.m (runalldisk.m)
