@@ -3,7 +3,7 @@ This repository complements Chapter 3 of the paper
 by 
 Lukas Pieronek and Andreas Kleefeld.
 
-Date: June, 14th 2022
+Date: June, 15th 2022
 Used: Matlab R2021a
 
 Creating the ten figures
