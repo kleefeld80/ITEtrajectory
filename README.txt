@@ -3,7 +3,7 @@ This repository complements Chapter 3 of the paper
 by 
 Lukas Pieronek and Andreas Kleefeld.
 
-Date: June, 13th 2022
+Date: June, 14th 2022
 Used: Matlab R2021a
 
 Creating the ten figures
@@ -23,6 +23,7 @@ plotfig07.m
 plotfig08.m
 plotfig09.m
 plotfig10.m
+plotfig11.m
 
 and creates
 fig01.eps
@@ -35,6 +36,7 @@ fig07.eps
 fig08.eps
 fig09.eps
 fig10.eps
+fig11.eps
 
 Data for the figures
 ====================
@@ -56,12 +58,15 @@ kite1.mat
 kite2.mat
 clover1.mat
 clover2.mat
+ellipsoid1.mat
+ellipsoid2.mat
+ellipsoid3.mat
 
 Generation of the data
 ======================
 The data are produced through
 
-createdata.m (this needs about 10 hours) using the call createdata()
+createdata.m (this needs about 40 hours) using the call createdata()
 
 which calls
 disk1.m (runalldisk.m)
@@ -81,6 +86,9 @@ kite1.m
 kite2.m
 clover1.m
 clover2.m
+ellipsoid1.m
+ellipsoid2.m
+ellipsoid3.m
 
 which in turn need the beyn algorithm and the modified method of fundamental solution methods
 ITEbeyn2D.m
@@ -89,6 +97,7 @@ MFS_ITE_ellipse.m
 MFS_ITE_polygon.m
 MFS_ITE_kite.m
 MFS_ITE_clover.m
+MFS_ITE_ellipsoid.m
 
 
 

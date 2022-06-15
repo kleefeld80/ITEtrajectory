@@ -35,4 +35,9 @@ function createdata()
     % data for figure 10
     clover1()
     clover2()
+    
+    % data for figure 11
+    ellipsoid1()
+    ellipsoid2()
+    ellipsoid3()
 end

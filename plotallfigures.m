@@ -9,4 +9,5 @@ function plotallfigures()
     plotfig08();
     plotfig09();
     plotfig10();
+    plotfig11();
 end
